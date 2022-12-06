@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    margin: 0;
+    color:burlywood
+  }
+  a {
+    text-decoration: none;
+    border: 1px solid rgb(25, 25, 93);
+    color: rgb(245, 245, 250);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 93);
+  }
+  h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    background-color: rgb(9, 34, 78);
+    color: white;
+  }
+  hr{
+    width: 100%;
+    color: rgb(28, 28, 93);
+  }
+  h3 {
+    text-align: center;
+    color: rgb(44, 44, 110);
+  }
+  p span {
+    color: black;
+    font-weight: 800;
+  }
+  button {
+    margin: 20px;
+  }
+  #loading {
+    display: block;
+    font-size: 36px;
+    margin-top: 300px;
+  }
+  #main {
+    display: none;
+  }
+  #name,
+  #team,
+  #price,
+  #type {
+    color: rgb(244, 247, 250);
+  }
+  #container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+  }
+  #imageDiv {
+    display: flex;
+    width: 210px;
+    height: 230px;
+    justify-content: center;
+  }
+  #buttonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #playerCard {
+    display: flex;
+    justify-self: center;
+    width: 35%;
+   
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  #playerDetails {
+    color: white;
+    text-align: left;
+    border-left: 2px solid black;
+    padding-top: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(25, 47, 113);
+    width: 100%;
+  }
